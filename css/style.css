@@ -161,7 +161,7 @@ h6 {
 .card__title {
   display: flex;
   justify-content: center;
-  padding: 0 20px 20px 20px;
+  margin: 20px;
   font-size: 22px;
   font-family: PlusJakartaSans, serif;
   font-weight: 600;
@@ -170,7 +170,7 @@ h6 {
 .card__price {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .wrapper {
@@ -305,6 +305,15 @@ h6 {
 .categories__item {
   display: flex;
   position: relative;
+}
+
+.sum {
+  display: flex;
+  float: right;
+  margin: 30px;
+  font-family: PlusJakartaSans, serif;
+  font-weight: normal;
+  font-size: 24px;
 }
 
 .price__product {
@@ -485,4 +494,9 @@ h6 {
   .categories__close {
     font-size: 16px;
   }
+}
+
+.btnBuy__conteyner {
+  display: flex;
+  justify-content: flex-end;
 }
